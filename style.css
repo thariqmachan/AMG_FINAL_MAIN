@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+.span{
+  color: aqua;
+}
+
+/* FONT SIZES */
+.fs-16{line-height: 21px; color: black;font-size: 16px;}
+.fs-50{line-height: 66px; font-weight: 700; font-size: 50px;color: #A7A7A7;}
+.fs-14{line-height: 25px; font-weight: 200; font-size: 14px;}
+.fs-40{line-height: 53px;color: #01B3AD;font-size: 40px;}
+.fs-117{line-height: 100px;font-size: 117px;font-weight: 900;}
+.fs-20{line-height: 20px; font-size: 20px;color: #A7A7A7; }
+.fs-12{line-height: 20px; font-size: 12px;}
+.fs-100{line-height: 100px; font-size: 100px;}
+.fs-28{line-height: 45px; font-size: 28px;}
+.fs-22{line-height: 29px; font-size: 22px;}
+.fs-18{line-height: 36px; font-size: 18px;}
+.fs-24{line-height: 32px; font-size: 24px;}
+.fs-115{line-height: 152px; font-size: 115px;}
+.fs-39{font-size: 40px;line-height: 50px;}
+
+
+/****** margin ******/
+.mt-115{margin-top: 115px;}
+.mt-265{margin-top: 265px;}
+.m-38{margin-top: 38px;margin-bottom: 38px;}
+.mt-211{margin-top: 211px;}
+
+/***** padding ****/
+.p-22{padding-top: 22px;padding-bottom: 22px;}
+.pl-78{padding-left: 78px;}
+.pt-177{padding-top: 177px;}
+.px-93{ padding: 0px 64px 0px 93px }
+.py-65{padding-top: 65px; padding-bottom: 65px;}
+.pl-237{padding-left: 237px;}
+.pt-209{padding-top: 209px;}
+.pt-124{padding-top: 124px;}
+.pt-40{padding-top: 40px;}
+.pb-40{padding-bottom: 40px;}
+.pt-151{padding-top: 151px;}
+.pt-184{padding-top: 184px;}
+.pt-30{padding-top: 30px;}
+.pt-86{padding-top: 86px;}
+.pl-133{padding-left: 133px;}
+.p-109-28{padding: 28px 77px;}
+.pt-20{padding-top: 20px;}
+.p-33-38{padding: 33px 38px;}
+.pl-36{padding-left: 36px;}
+.pr-18{padding-right: 18px;}
+.pt-22{padding-top: 18px;}
+.p-40-36{padding: 40px 36px;}
+.pt-68{padding-top: 68px;}
+.pt-59{padding-top: 59px;}
+.pt-28{padding-top: 28px;}
+.pl-20{padding-left: 20px;}
+/* business card padding */
+.pb{padding-top: 91px; padding-right: 106px;  padding-bottom: 79px; padding-left: 92px;}
+/* CSS */
+.border{
+  border: .5px solid #707070!important;
+  border-radius: 20px;
+  padding: 47px 112px 33px  40px;
+}
+.whatweprovide{
+  width: 32.333333%;
+}
+.whatweprovide_content{
+  position: relative;
+}
+.whatweprovide_content p{
+  position: absolute;
+  padding-left: 237px;
+}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.borderDiv{
+  width: 116px;
+  height: 35px;
+}
+
+
+.hr {   
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: relative;
+  padding: 2em 0;
+ border-bottom: 2px dashed #404040;
+}
+.footer_hr{
+  border-bottom: 3px solid #a7a6a6;
+  
+  
+}
+.donateNow{
+  border-radius: 50px;
+  background-color: #EF3F24;
+  color: #ffff;
+}
+.br{
+  border-radius: 20px;
+}
+.btn-readmore{
+  border: 2px solid #9e9d9d;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 8px 31px;
+  background-color: #ffff;
+}
+.card-body{
+  padding: 32px 114px 50px 38px;
+}
+.footer_list{
+  list-style-type: none;
+}
+.footer_list li::before {
+  display: none; 
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media(min-width:1366px){
+  .container {
+    max-width: 1225px;
+  }
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media(max-width:1200px){
+  /* FIRST SECTION */
+  .firstSectionHeading {
+    font-size: 40px;  
+  }
+  .arrow img{
+    width: 50px;
+    height: 50px;
+  }
+ 
+}
+
+
+@media(max-width:992px){
+  /* FIRST SECTION */
+  .px-93 {
+    padding: 0px 5px 0px 30px;
+  }
+  .firstSectionHeading {
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .arrow img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
+
+
+@media(max-width:768px){
+  .firstSectionHeading {
+    font-size: 30px;
+    line-height: 39px; 
+  }
+  .fs-14 {
+    line-height: 25px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+}
+
+
+
+
+
