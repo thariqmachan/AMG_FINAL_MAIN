@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="253" height="93.038" viewBox="0 0 253 93.038">
+  <g id="Group_106" data-name="Group 106" transform="translate(-629 -60)" opacity="0.4">
+    <g id="Group_5" data-name="Group 5" transform="translate(629 60)">
+      <g id="Group_6" data-name="Group 6" transform="translate(0 0)">
+        <path id="Path_2" data-name="Path 2" d="M47.852,0c-.5,33.729-.5,35.09,0,46.519,20.7.226,25.835.282,47.852,0,0,25.692-21.424,46.519-47.852,46.519S0,72.211,0,46.519,21.424,0,47.852,0Z" transform="translate(157.295 0)" fill="#dd923f"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M54.659,0l54.659,92.7H0Z" transform="translate(0 0.341)" fill="#01b3ad"/>
+        <path id="Path_1" data-name="Path 1" d="M0,0,47.374,46.774,94.026,0V93.038H0Z" transform="translate(81.094 0)" fill="#ef3f27"/>
+        <path id="Intersection_3" data-name="Intersection 3" d="M0,35.083A47.966,47.966,0,0,1,15.427,0V70.166A47.967,47.967,0,0,1,0,35.083Z" transform="translate(159.694 11.434)" fill="#da1b2a" style="mix-blend-mode: darken;isolation: isolate"/>
+        <path id="Intersection_4" data-name="Intersection 4" d="M0,48.487V0L27.512,48.487Z" transform="translate(81.094 44.551)" fill="#5f3d34"/>
+      </g>
+    </g>
+  </g>
+</svg>
